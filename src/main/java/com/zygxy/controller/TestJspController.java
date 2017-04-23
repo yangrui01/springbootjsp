@@ -19,6 +19,7 @@ public class TestJspController {
     @RequestMapping("/")
     public String toIndex(Map map) {
         map.put("date", new Date());
+        map.put("name","yangrui");
         return "index";
     }
 }

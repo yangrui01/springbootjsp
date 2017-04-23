@@ -14,6 +14,6 @@
     <script src="${ctx}/static/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
-<h2  style="text-align: center;margin-top: 100px">Hello World! -- ${date}</h2>
+<h2  style="text-align: center;margin-top: 100px">Hello World!! - ${date} == ${name}123</h2>
 </body>
 </html>
