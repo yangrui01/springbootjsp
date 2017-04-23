@@ -1,0 +1,5 @@
+springboot使用jsp作为模板引擎：
+       开发完使用传统的方式部署步骤：
+         ① 将spring-boot-starter-tomcat 和 tomcat-embed-jasper 的scope注释打开
+         ② 执行 mvn package(注意：修改项目的打包方式为: war )
+         ③ 将war包部署到外部服务器上，注意修改端口号
